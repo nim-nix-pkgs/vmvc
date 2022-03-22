@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-vmvc-master.flake = false;
+  inputs.src-vmvc-master.ref   = "refs/heads/master";
   inputs.src-vmvc-master.owner = "kobi2187";
-  inputs.src-vmvc-master.ref   = "master";
   inputs.src-vmvc-master.repo  = "vmvc";
   inputs.src-vmvc-master.type  = "github";
   
