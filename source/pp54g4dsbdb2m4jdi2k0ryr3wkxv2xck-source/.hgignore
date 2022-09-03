@@ -1,0 +1,7 @@
+.git$
+.*\.c
+.*\.o
+.*\.exe
+/nimcache/
+\.vscode
+[^.]+
